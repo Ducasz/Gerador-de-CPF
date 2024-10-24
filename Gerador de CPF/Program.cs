@@ -8,10 +8,7 @@ Console.WriteLine();
 
 Console.WriteLine("Gerador de CPF");
 
-Console.WriteLine();
-Console.WriteLine();
-Console.WriteLine();
-
+Console.WriteLine("\n\n\n");
 
 Console.WriteLine("Digite A Sigla do estado do CPF que será gerado:");
 
@@ -39,11 +36,7 @@ if (stateExist)
 
 Console.WriteLine(generatedCPF);
 
-Console.WriteLine();
-Console.WriteLine();
-Console.WriteLine();
-Console.WriteLine();
-Console.WriteLine();
+Console.WriteLine("\n\n\n\n\n");
 
 Console.WriteLine("Pressione qualquer tecla para sair");
 
