@@ -4,11 +4,17 @@ Console.ForegroundColor = ConsoleColor.Black;
 Console.Clear();
 
 Console.WriteLine();
+
+
 Console.WriteLine("Gerador de CPF");
+
 Console.WriteLine();
 Console.WriteLine();
 Console.WriteLine();
+
+
 Console.WriteLine("Digite A Sigla do estado do CPF que será gerado:");
+
 Console.WriteLine();
 
 string regionString = Console.ReadLine();
@@ -25,7 +31,9 @@ Console.WriteLine();
 if (stateExist)
 {
     Console.WriteLine();
+
     Console.WriteLine("CPF Gerado:");
+
     Console.WriteLine();
 }
 
@@ -34,7 +42,11 @@ Console.WriteLine(generatedCPF);
 Console.WriteLine();
 Console.WriteLine();
 Console.WriteLine();
+Console.WriteLine();
+Console.WriteLine();
+
 Console.WriteLine("Pressione qualquer tecla para sair");
+
 Console.ReadKey();
 
 string Generate()
